@@ -1,0 +1,1 @@
+SELECT SUM(Amount) FROM Opportunity WHERE IsClosed = FALSE

@@ -1,0 +1,2 @@
+ NumberRecords.existNumber();
+ 

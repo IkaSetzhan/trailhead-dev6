@@ -1,0 +1,11 @@
+calculatorr  c = new calculatorr();
+Decimal dAdd = c.dynamicCalulationMethod(55.5, 60, 'ADDITION');
+system.debug('dAdd ' + dAdd);
+Decimal dSub = c.dynamicCalulationMethod(55.5, 60, 'SUBSTRACTION');
+system.debug('dsub ' +dSub);
+Decimal dDiv = c.dynamicCalulationMethod(55.5, 60, 'DIVISION');
+system.debug('dDiv ' + dDiv);
+Decimal dMul = c.dynamicCalulationMethod(55.5, 60, 'MULTIPLACATION');
+system.debug('dMul ' +dMul);
+Decimal dMul2 = c.dynamicCalulationMethod(55.5, 60, 'operation');
+system.debug('dMul2 ' + dMul2);

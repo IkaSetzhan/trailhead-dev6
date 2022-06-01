@@ -1,0 +1,2 @@
+public static void childToParent_Soql1(){
+List<contact> listCnt =[Select id, name, Account.Name from Contact where Account.Industry = ''

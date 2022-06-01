@@ -1,0 +1,10 @@
+AccConAndOppOperationsPrac4D.createAccount(null, 10000, 'customer - Direct');
+AccConAndOppOperationsPrac4D.fetchAllAccounts();
+AccConAndOppOperationsPrac4D.fetchOpportunities('Closed Lost', 'Web');
+AccConAndOppOperationsPrac4D.printOppAndAccDetails();
+system.debug(AccConAndOppOperationsPrac4D.sumAmount());
+AccConAndOppOperationsPrac4D.closedWon('Closed won');
+AccConAndOppOperationsPrac4D.returnAll();
+AccConAndOppOperationsPrac4D.createContact('0018b00001xNOccAAG');
+AccConAndOppOperationsPrac4D.updateDesc();
+AccConAndOppOperationsPrac4D.numberOpp(0,'0018b00001xNOcaAAG');

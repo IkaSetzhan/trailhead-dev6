@@ -1,0 +1,11 @@
+//1. Fetch Account Id, Contact First Name, Contact Last Name and Email Address for all the contacts 
+//present in your org. 
+SELECT AccountId, LastName, FirstName, Email from contact
+
+//2. Fetch all the accounts which have no Phone number populated and order them based on the 
+// Account Name in the ascending order.
+SELECT Id, Name, Phone from Account Where phone = null Order by Name
+//3. Find all contacts which have no account attached to them.
+Select Id, Name from Contact  where AccountId = null
+//4. Find out the count of all opportunities present in the Org.
+select Count() from Opportunity
