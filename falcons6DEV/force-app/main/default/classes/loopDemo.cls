@@ -6,13 +6,14 @@ public  class loopDemo {
             count++;
         }
     }
+    //implement execute method is mandatory
         public void print_N_numbers(integer n){
             //for initialize condition increment
             for(integer i=0; i<n; i++ ){
                 system.debug(i);
             }
         }
-        
+        // print method here for GITHUB
         public void print_sum_N_numbers(integer n){
             integer sum = 0;
             for (Integer i = 0; i <= n; i++) {
