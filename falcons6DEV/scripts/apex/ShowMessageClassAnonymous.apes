@@ -1,2 +1,0 @@
-ShowMessageClass objmsg = new ShowMessageClass();
-objmsg.ShowMessage();
